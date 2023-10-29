@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/src/linux-headers-6.2.0-35-generic/arch/x86/include",
+                "/usr/src/linux-headers-6.2.0-35-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-6.2.0-35-generic/include",
+                "/usr/src/linux-headers-6.2.0-35-generic/arch/x86/include/uapi",
+                "/usr/src/linux-headers-6.2.0-35-generic/arch/x86/include/generated/uapi",
+                "/usr/src/linux-headers-6.2.0-35-generic/include/uapi",
+                "/usr/src/linux-headers-6.2.0-35-generic/include/generated/uapi",
+                "/usr/src/linux-headers-6.2.0-35-generic/ubuntu/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/11/include"
+            ],
+            "defines": [
+                "KBUILD_MODNAME=\"hello_module\"",
+                "__GNUC__",
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
